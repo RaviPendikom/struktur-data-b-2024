@@ -1,9 +1,13 @@
 let nilai = 65;
 
-if (nilai >= 85) {
-  alert("Nilai: A");
-} else if (nilai >= 70) {
-  alert("Nilai: B");
-} else {
-  alert("Nilai C");
+switch (true) {
+  case nilai >= 85:
+    alert("Nilai A");
+    break;
+  case nilai >= 70:
+    alert("Nilai B");
+    break;
+  default:
+    alert("Nilai C");
+    break;
 }
